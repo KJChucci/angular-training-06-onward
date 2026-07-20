@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 
 import { TasksComponent } from './tasks/tasks.component';
 
@@ -8,4 +8,4 @@ import { TasksComponent } from './tasks/tasks.component';
   templateUrl: './app.component.html',
   imports: [TasksComponent],
 })
-export class AppComponent {}
+export class AppComponent { }
